@@ -1,0 +1,19 @@
+<settings>
+	<category label="PyFTPs Server">
+		<setting label="PyFTPs Server" type="text" enable="false"/>
+		<setting label="Provides a lightweight FTP server for kodi" type="text" enable="false"/>
+		<setting type="sep"/>
+		<setting label="Go to http://www.tvaddons.co for support." type="lsep" />
+	</category>
+	<category label="General">
+	<setting label="Service"  type="lsep"/>
+	<setting label="Port" type="slider" id="server_port" default="5021" range="5000,1,5999" option="int"/>
+	<setting label="Use SSL (FTPS)" type="bool" id="use_ssl" default="false"/>
+	<setting label="Root Directory" type="folder" default="special://home" id="root_directory" />
+	
+"int"/>
+	<setting label="Login"  type="lsep"/>
+	<setting id="ftp_user" type="text" label="Username" default="kodi" />
+	<setting id="ftp_pass" type="text" label="Password" option="hidden" default="kodi" />
+	</category>
+</settings>

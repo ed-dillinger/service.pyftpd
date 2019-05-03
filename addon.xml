@@ -1,0 +1,18 @@
+<?xml version="1.0" ?><addon id="service.pyftpd" name="PyFTPd Server" provider-name="EDDillinger" version="0.0.1">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.pyopenssl" optional="true"/>
+        <import addon="script.module.six" optional="true"/>
+    </requires>
+    <extension library="service.py" point="xbmc.service" start="startup"/>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Provides FTP server.</summary>
+        <description lang="en">FTP server implementation by ED Dillinger.</description>
+        <disclaimer lang="en"/>
+        <language/>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <website>http://www.tvaddons.co/forum/</website>
+    </extension>
+</addon>
